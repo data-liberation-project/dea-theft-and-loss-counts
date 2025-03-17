@@ -2,7 +2,7 @@
 
 This repository contains [spreadsheets](data/raw/) from the US Drug Enforcement Administration (DEA), counting the number of controlled substance (and regulated chemical) thefts/losses reported to the agency — by state, business activity, loss type, and year — plus the overall quantities stolen/lost.
 
-The spreadsheets were obtained in May 2023 via a [Freedom of Information Act (FOIA) request](https://www.data-liberation-project.org/requests/controlled-substance-theft-and-loss/) submitted by the [Data Liberation Project](https://www.data-liberation-project.org/).
+The spreadsheets were obtained in May 2023 via a [Freedom of Information Act (FOIA) request](https://www.data-liberation-project.org/requests/controlled-substance-theft-and-loss/) submitted by the [Data Liberation Project](https://www.data-liberation-project.org/). The DLP also obtained a [manual, partially redacted,](https://www.documentcloud.org/documents/25589722-dea-theftloss-of-controlled-substances-manual-partially-redacted/) describing how to fill out the TLR program.
 
 This repository also contains [“tidy” CSV representations](data/tidy/) of the same data, plus the [Python code](scripts/convert-to-csv.py) used for the conversion.
 
@@ -19,7 +19,7 @@ The Data Liberation Project’s [FOIA request](https://www.documentcloud.org/doc
 
 ## Spreadsheets provided by the DEA
 
-In May 2023, the DEA sent its response to the Data Liberation Project. Along with its [determination letter](https://www.documentcloud.org/documents/23813617-2023-05-12-signed-det-65), the agency provided two spreadsheets, which you can [download here](data/raw/). (The agency did not provide any of the underlying report data requested, nor the documentation requested.)
+In May 2023, the DEA sent its response to the Data Liberation Project. Along with its [determination letter](https://www.documentcloud.org/documents/23813617-2023-05-12-signed-det-65), the agency provided two spreadsheets, which you can [download here](data/raw/). (The agency did not provide any of the underlying report data requested.)
 
 The spreadsheets contain two sets of analogous statistical reports, one for __controlled substances__ (302,547 incidents from 2010 to Sept. 2022) and the other for __listed chemicals__ (756 incidents from 2019 to Sept. 2022). Each spreadsheet contains the following sub-sheets:
 
